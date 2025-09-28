@@ -1,8 +1,11 @@
 HokiePlatePal 🍽️
 Your AI-Powered Campus Nutrition Companion
-🎯 Overview
+
+
+# 🎯 Overview
 HokiePlate is a personalized nutritionist and food tracker app designed specifically for college students' campus dining experience. The app creates customized meal plans based on real-time menus from nearby dining halls, integrating with VT's dining infrastructure to provide intelligent food recommendations.
-✨ Key Features
+
+# ✨ Key Features
 
 🤖 AI-Powered Nutrition Chatbot: "PlatePal" provides instant meal suggestions based on your dietary needs
 📱 Quick-Prompt Functionality: Perfect for students in a rush between classes
@@ -12,15 +15,15 @@ HokiePlate is a personalized nutritionist and food tracker app designed specific
 🎯 Personalized Meal Plans: Custom recommendations based on calorie goals and dietary restrictions
 📍 GPS Integration: Smart location-based dining suggestions
 
-🏗️ Architecture
-Frontend
+# 🏗️ Architecture
+# Frontend
 
 React Native - Cross-platform mobile application
 JavaScript - Core application logic
 HTML/CSS - User interface styling
 Visual Studio Code - Development environment
 
-Backend
+# Backend
 
 Python - Core backend logic
 Flask API - RESTful endpoints for frontend communication
@@ -28,14 +31,14 @@ Web Scraper - Real-time VT dining hall data extraction
 JSON Database - Structured nutrition and menu storage
 Daily Scheduler - Automated data refresh system
 
-AI Integration
+# AI Integration
 
 OpenAI API - Intelligent meal recommendation engine
 Role-Based Prompting - PlatePal nutrition expert persona
 Few-Shot Learning - Enhanced meal planning examples
 Rule-Based Validation - Dietary restriction compliance checking
 
-🚀 Getting Started
+# 🚀 Getting Started
 Prerequisites
 
 Node.js (v14 or higher)
@@ -43,28 +46,28 @@ Python 3.8+
 React Native development environment
 OpenAI API key
 
-Installation
+# Installation
 
 Clone the repository
 
 bash   git clone https://github.com/KashishUdhani/HokiePlatePal.git
    cd HokiePlatePal
 
-Set up the backend
+# Set up the backend
 
-bash   # Install Python dependencies
+bash   Install Python dependencies
    pip install -r requirements.txt
    
-   # Set up environment variables
+   Set up environment variables
    cp .env.example .env
-   # Add your OpenAI API key to .env
+   Add your OpenAI API key to .env
 
-Set up the frontend
+# Set up the frontend
 
 bash   cd frontend
    npm install
 
-Start the development servers
+# Start the development servers
 Backend:
 
 bash   python app.py
@@ -113,8 +116,9 @@ HokiePlatePal/
 ├── .env.example             # Environment variables template
 ├── .gitignore
 └── README.md
-🛣️ Roadmap
-What's Next for HokiePlate
+
+# 🛣️ Roadmap
+# What's Next for HokiePlate
 
 🌍 Multi-University Expansion: Scale to serve students across different college campuses nationwide
 🧭 Enhanced Mapping Integration: Implement turn-by-turn navigation directly within the app
@@ -130,7 +134,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Kashish Udhani - Project Lead
 [Add other team members here]
 
-🙏 Acknowledgments
+# 🙏 Acknowledgments
 
 Virginia Tech Dining Services for menu data
 OpenAI for AI capabilities
