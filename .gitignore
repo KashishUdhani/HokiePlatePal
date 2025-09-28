@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.env
+.env.local
+
+# React Native
+.expo/
+.expo-shared/
+*.log
+.DS_Store
+
+# Python
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
